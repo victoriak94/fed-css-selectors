@@ -47,12 +47,12 @@ ol>li {
   background-color: grey;
 }
 
-ol:nth-child {
+ol>li:nth-child(2n+1) {
   background-color: green;
 }
 
-p>a:hover {
-  font-style: normal;
+[title="Bitmaker"]:hover {
+  text-decoration: none;
 }
 
 li>a:hover {
